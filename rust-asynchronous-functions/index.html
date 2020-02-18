@@ -1,0 +1,44 @@
+
+        <!DOCTYPE html>
+        <html lang="en-US">
+            <head>
+                <title>trevordmiller.com</title>
+                <meta name="author" content="Trevor D. Miller">
+                <meta name="description" content="Personal website.">
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style type="text/css">
+                    /* Fix native overflow */
+                    pre {
+                      overflow: auto;
+                    }
+                </style>
+            </head>
+            <body>
+                <header>
+                    <nav>
+                        <a href="/">Notes</a>
+                        <a href="https://github.com/trevordmiller">GitHub</a>
+                        <a href="https://www.linkedin.com/in/trevordmiller">LinkedIn</a>
+                    </nav>
+                </header>
+                <hr />
+                <main>
+                    <article>
+                        <h1>Asynchronous functions in Rust</h1>
+<p>Calling <code>async</code> functions return a &quot;future&quot;. The result of a future can be used with the <code>.await</code> operator.</p>
+<pre><code class="language-rust">async fn some_function() {
+  ...
+}
+
+async fn another_function() {
+    let some_future = some_function();
+    let some_result = some_future.await;
+}
+</code></pre>
+
+                    </article>
+                </main>
+              </body>
+        </html>
+    

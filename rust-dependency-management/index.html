@@ -1,0 +1,50 @@
+
+        <!DOCTYPE html>
+        <html lang="en-US">
+            <head>
+                <title>trevordmiller.com</title>
+                <meta name="author" content="Trevor D. Miller">
+                <meta name="description" content="Personal website.">
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style type="text/css">
+                    /* Fix native overflow */
+                    pre {
+                      overflow: auto;
+                    }
+                </style>
+            </head>
+            <body>
+                <header>
+                    <nav>
+                        <a href="/">Notes</a>
+                        <a href="https://github.com/trevordmiller">GitHub</a>
+                        <a href="https://www.linkedin.com/in/trevordmiller">LinkedIn</a>
+                    </nav>
+                </header>
+                <hr />
+                <main>
+                    <article>
+                        <h1>Dependency management in Rust</h1>
+<h2>Add a dependency</h2>
+<ul>
+<li><code>some_library = &quot;x.y.z&quot;</code> manually added in <code>[dependencies]</code> section of <code>Cargo.toml</code></li>
+<li>From <a href="http://crates.io/">crates.io</a></li>
+<li>Updates <code>Cargo.lock</code> during the next compile</li>
+</ul>
+<h2>Use a dependency</h2>
+<ul>
+<li><code>use some_library::some_module</code></li>
+<li>Brings the last item after the <code>::</code> into scope on top of the minimal prelude</li>
+</ul>
+<h2>Upgrade a dependency</h2>
+<ul>
+<li>Manually change in <code>[dependencies]</code> section of <code>Cargo.toml</code> to a different version</li>
+<li>Updates <code>Cargo.lock</code> during the next compile</li>
+</ul>
+
+                    </article>
+                </main>
+              </body>
+        </html>
+    
