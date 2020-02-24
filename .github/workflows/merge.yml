@@ -1,0 +1,16 @@
+name: Production check
+on:
+  page_build:
+  schedule:
+    - cron:  '0 0 * * *'
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Audit
+      uses: treosh/lighthouse-ci-action@v2
+      with:
+        urls: 'https://trevordmiller.com'
+        configPath: './.github/audit/lighthouserc.json'
+        temporaryPublicStorage: true
+        runs: 3
