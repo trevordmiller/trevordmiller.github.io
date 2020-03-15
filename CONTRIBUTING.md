@@ -1,5 +1,18 @@
 # Contributing
 
+## Purpose
+
+See [README.md](./README.md).
+
+## Principles
+
+- Only add code that directly contributes to the project purpose so that the project remains focused, useful, and sustainable.
+- Only add code that uses timeless web platform standards so that maintenance cost is reduced long-term.
+
+## Setup
+
+- Install Git.
+
 ## Workflow
 
 - Work off the `master` branch.
@@ -9,5 +22,5 @@
 ## Integrations
 
 - Branch protection with [GitHub settings](https://github.com/trevordmiller/trevordmiller/settings/branches).
-- Continuous Integration and Deployment with [GitHub Actions](https://github.com/trevordmiller/trevordmiller/actions).
+- Continuous Integration / Deployment with [GitHub Actions](https://github.com/trevordmiller/trevordmiller/actions).
 - Domain name registration with [Hover](https://www.hover.com).
