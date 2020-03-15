@@ -1,12 +1,6 @@
-# trevordmiller.github.io
+# trevordmiller.github.io ([https://trevordmiller.com](https://trevordmiller.com))
 
-Personal site to help me share my code skills.
-
-Published to [https://trevordmiller.com](https://trevordmiller.com).
-
-## Principles
-
-- Use vanilla semantic HTML to keep things as simple as possible.
+Personal website for sharing my code.
 
 ## Contributing
 
