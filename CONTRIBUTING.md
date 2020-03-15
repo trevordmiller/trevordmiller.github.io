@@ -23,4 +23,5 @@ See [README.md](./README.md).
 
 - Branch protection with [GitHub settings](https://github.com/trevordmiller/trevordmiller/settings/branches).
 - Continuous Integration / Deployment with [GitHub Actions](https://github.com/trevordmiller/trevordmiller/actions).
+- Hosting with [GitHub Pages](https://github.com/trevordmiller/feeds/settings).
 - Domain name registration with [Hover](https://www.hover.com).
