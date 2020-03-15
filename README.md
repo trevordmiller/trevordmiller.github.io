@@ -1,6 +1,8 @@
 # trevordmiller.github.io
 
-Personal website. [https://trevordmiller.com](https://trevordmiller.com)
+Personal site to help me share my code skills.
+
+Published to [https://trevordmiller.com](https://trevordmiller.com).
 
 ## Principles
 
