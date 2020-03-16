@@ -1,6 +1,6 @@
 # trevordmiller.github.io ([https://trevordmiller.com](https://trevordmiller.com))
 
-Personal website for sharing my code.
+Personal website for sharing my work.
 
 ## Contributing
 
