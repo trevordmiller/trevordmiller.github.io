@@ -1,0 +1,14 @@
+{
+  "name": "trevordmiller.github.io",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write \"**/*.{md,yml,html}\""
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
