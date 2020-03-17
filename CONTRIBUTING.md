@@ -11,14 +11,11 @@ See [README.md](./README.md).
 ## Setup
 
 - Install Git.
-- Install Node.
 
 ## Workflow
 
 - Work off the `master` branch.
-- Run `npm install` to install dependencies.
 - Update website starting from `./index.html`.
-- Run `npm run format` to format files.
 - Submit a pull request to the `master` branch.
 - Merge the pull request when it has passing merge checks.
 
