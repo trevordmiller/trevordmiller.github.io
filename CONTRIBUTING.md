@@ -6,11 +6,10 @@ See [README.md](./README.md).
 
 ## Principles
 
-- Use timeless web platform standards where possible so that maintenance cost is reduced long-term.
-
-## Setup
-
-- Install Git.
+- No dependencies.
+- All source code is standard HTML.
+- All documentation is standard Markdown.
+- All integrations are in GitHub settings.
 
 ## Workflow
 
@@ -18,10 +17,3 @@ See [README.md](./README.md).
 - Update website starting from `./index.html`.
 - Submit a pull request to the `master` branch.
 - Merge the pull request when it has passing merge checks.
-
-## Integrations
-
-- GitHub settings for branch protection and merge checks.
-- GitHub Actions for Continuous Integration and Continuous Deployment.
-- GitHub Pages for hosting.
-- Hover for custom domain name registration and DNS configuration.
