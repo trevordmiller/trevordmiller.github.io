@@ -7,7 +7,7 @@ See [README.md](./README.md).
 ## Principles
 
 - No dependencies.
-- All source code is standard HTML.
+- All source code is standard HTML / CSS.
 - All documentation is standard Markdown.
 - All integrations are in GitHub settings.
 
