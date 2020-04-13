@@ -9,11 +9,13 @@ See [README.md](./README.md).
 - No dependencies.
 - All source code is standard HTML / CSS.
 - All documentation is standard Markdown.
+- All scripts are standard shell scripts.
 - All integrations are in GitHub settings.
 
 ## Workflow
 
 - Work off the `master` branch.
 - Update website starting from `./index.html`.
+- Run `./scripts/format` to format files.
 - Submit a pull request to the `master` branch.
 - Merge the pull request when it has passing merge checks.
