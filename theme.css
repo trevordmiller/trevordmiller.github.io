@@ -1,19 +1,24 @@
-body {
-  font-family: "Courier New", Courier, monospace;
+html {
   font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
   padding: 2rem;
   max-width: 80ch;
   margin: 0 auto;
 }
 
 h1 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
   margin: 2rem 0 2rem 0;
+  display: flex;
 }
 
 h1::before {
-  content: "> ";
+  content: ">";
+  margin-right: 1ch;
 }
 
 h1::after {
@@ -21,11 +26,9 @@ h1::after {
   display: inline-block;
   background: black;
   width: 1ch;
-  height: 1em;
-  position: relative;
-  bottom: -2px;
-  margin-left: 0.2em;
+  height: 1rem;
   animation: cursor 800ms infinite;
+  margin-left: 1ch;
 }
 
 @keyframes cursor {
@@ -43,7 +46,7 @@ h1::after {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
   text-transform: uppercase;
   border-bottom: 1px dashed;
@@ -51,7 +54,7 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
   border-bottom: 1px dashed;
   display: inline-block;
@@ -73,8 +76,13 @@ ul {
   margin: 0 0 1rem 0;
 }
 
+li {
+  display: flex;
+}
+
 li:before {
-  content: "- ";
+  content: "-";
+  margin-right: 1ch;
 }
 
 blockquote {
