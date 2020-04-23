@@ -1,7 +1,9 @@
-name: Push
-on: push
+on:
+  push:
+  schedule:
+    - cron: "0 0 * * *"
 jobs:
-  audit:
+  website:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

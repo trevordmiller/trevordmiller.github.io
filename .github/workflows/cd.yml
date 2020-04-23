@@ -1,9 +1,9 @@
-name: Schedule
-on:
+on: 
+  page_build:
   schedule:
     - cron: "0 0 * * *"
 jobs:
-  audit:
+  website:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -15,15 +15,3 @@ jobs:
           configPath: "./.github/config/production/lighthouserc.json"
           temporaryPublicStorage: true
           runs: 3
-  links:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Links
-        uses: peter-evans/link-checker@v1
-        id: lc
-        with:
-          args: -v -r *
-      - name: Exit
-        run: exit ${{ steps.lc.outputs.exit_code }}
