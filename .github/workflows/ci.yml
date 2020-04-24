@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: "0 0 * * *"
 jobs:
-  website:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -11,14 +11,9 @@ jobs:
       - name: Audit
         uses: treosh/lighthouse-ci-action@v2
         with:
-          configPath: "./.github/config/local/lighthouserc.json"
+          configPath: "./.github/config/audit-local.json"
           temporaryPublicStorage: true
           runs: 3
-  links:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: Links
         uses: peter-evans/link-checker@v1
         id: lc
