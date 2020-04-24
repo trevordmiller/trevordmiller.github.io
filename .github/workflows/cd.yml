@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: "0 0 * * *"
 jobs:
-  website:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -12,6 +12,6 @@ jobs:
         uses: treosh/lighthouse-ci-action@v2
         with:
           urls: "https://trevordmiller.com"
-          configPath: "./.github/config/production/lighthouserc.json"
+          configPath: "./.github/config/audit-production.json"
           temporaryPublicStorage: true
           runs: 3
