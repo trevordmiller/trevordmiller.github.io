@@ -93,6 +93,7 @@ blockquote footer {
 video {
   width: 100%;
   max-height: 100%;
+  background: whitesmoke;
 }
 
 @media screen and (min-width: 80ch) {
