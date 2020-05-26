@@ -18,6 +18,6 @@ jobs:
         uses: peter-evans/link-checker@v1
         id: lc
         with:
-          args: --document-root . --verbose --recursive * 
+          args: --document-root . --verbose --recursive *
       - name: Exit
         run: exit ${{ steps.lc.outputs.exit_code }}
